@@ -37,6 +37,6 @@ app.listen(3000, function(){
 });
 
 // to start the server on cloud 9
-// app.listen(process.env.PORT, process.env.IP, function(){
-    // console.log("server has started");
-// });
+app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("server has started");
+});
